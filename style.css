@@ -108,9 +108,34 @@ p {
 		height: 0%;
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
+}
+
+@media screen and (max-width: 600px) {
+	#landing {
+		max-width: 100vw;
+		height: 10%;
+	}
+
+	#landing-btn {
+		bottom: 70px;
+	}
+
+    @keyframes logo-scale {
+        0% {
+            height: 0%;
+            opacity: 0;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            height: 10%;
+        }
+    }
 }
 
 /* INTRO STYLE */
