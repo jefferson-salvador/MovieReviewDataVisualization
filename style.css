@@ -158,7 +158,6 @@ p {
 
 /* YEAR STYLES */
 
-
 .card {
 	background-color: transparent;
 	min-width: 200px;
@@ -190,3 +189,72 @@ p {
 }
 
 /* CAST STYLES */
+
+.vertical-cast {
+	width: auto;
+	height: 420px;
+	overflow-y: scroll ;
+	overflow-x: hidden ;
+}
+
+.vertical-cast::-webkit-scrollbar {
+	width: 15px; /* width of the entire scrollbar */
+}
+
+.vertical-cast::-webkit-scrollbar-track {
+	background: black; /* color of the tracking area */
+}
+
+.vertical-cast::-webkit-scrollbar-thumb {
+	background-color: #bc0303; /* color of the scroll thumb */
+	border-radius: 20px; /* roundness of the scroll thumb */
+	border: 5px solid black; /* creates padding around scroll thumb */
+}
+
+.cards {
+	margin-bottom: 10px;
+}
+
+.img-fluid {
+	min-width: auto;
+	border-radius: 10px;
+}
+
+/* SALES STYLES */
+
+.table {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+}
+
+.table td {
+	padding: .2rem;
+	font-size: 15px;
+	padding-right: 23px;
+	padding-left: 23px;
+	border-top: none;
+}
+
+.table thead th {
+	font-size: 20px;
+	border-bottom: none;
+}
+
+.col-sm-8 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+/* PREDICTION STYLES */
+
+p {
+	color: rgba(255, 255, 255, 0.829);
+	text-indent: 5rem;
+	text-align: justify;
+	margin-bottom: 0px;
+}
