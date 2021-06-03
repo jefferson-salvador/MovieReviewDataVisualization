@@ -55,6 +55,10 @@ p {
 	text-justify: inter-word;
 }
 
+hr {
+    border-color:#bc0303;
+}
+
 /* WIP STYLE */
 
 #wip {
