@@ -295,7 +295,7 @@
         "Sebastian Stan",
         "Paul Rudd",
         "Evangeline Lilly",
-        " Benedict Cumberbatch",
+        "Benedict Cumberbatch",
         "Tessa Thompson",
         "Tom Holland",
         "Josh Brolin",
@@ -329,6 +329,57 @@
         "Samuel L. Jackson"]
     },
     {
+      "title": "Black Widow",
+      "release_date": "2021-07-09",
+      "box_office": 0,
+      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/black-widow.jpg",
+      "phase": 4,
+      "rating": 0,
+      "main_cast": ["Scarlett Johansson",
+        "Robert Downey JR"]
+    },
+    {
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "release_date": "2021-09-03",
+      "box_office": 0,
+      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/shang-chi-and-the-legend-of-the-ten-rings.jpg",
+      "phase": 4,
+      "rating": 0,
+      "main_cast": ["Simu Liu",
+        "Tony Leung",
+        "Awkwafina",
+        "Meng'er Zhang"]
+    },
+    {
+      "title": "Eternals",
+      "release_date": "2021-11-05",
+      "box_office": 0,
+      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/the-eternals.jpg",
+      "phase": 4,
+      "rating": 0,
+      "main_cast": ["Gemma Chan",
+        "Richard Madden",
+        "Kumail Nanjiani",
+        "Lia McHugh",
+        "Brian Tyree Henry",
+        "Lauren Ridloff",
+        "Barry Keoghan",
+        "Don Lee",
+        "Kit Harington",
+        "Salma hayek",
+        "Angelina Jolie"]
+    },
+    {
+      "title": "Spider-Man: No Way Home",
+      "release_date": "2021-12-17",
+      "box_office": 0,
+      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/spider-man-no-way-home.jpg",
+      "phase": 4,
+      "rating": 0,
+      "main_cast":[ "Tom Holland",
+        "Benedict Cumberbatch"]
+    },
+    {
       "title": "Doctor Strange in the Multiverse of Madness",
       "release_date": "2022-03-25",
       "box_office": 0,
@@ -355,16 +406,6 @@
         "Bradley Cooper",
         "Karen Gillan",
         "Pom Klementieff"]
-    },
-    {
-      "title": "Spider-Man: No Way Home",
-      "release_date": "2021-12-17",
-      "box_office": 0,
-      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/spider-man-no-way-home.jpg",
-      "phase": 4,
-      "rating": 0,
-      "main_cast":[ "Tom Holland",
-        "Benedict Cumberbatch"]
     },
     {
       "title": "Black Panther: Wakanda Forever",
@@ -398,7 +439,7 @@
       "title": "Guardians of the Galaxy Vol. 3",
       "release_date": "2023-05-05",
       "box_office": 0,
-      "cover_url": null,
+      "cover_url": "https://i.redd.it/u9yhv7wj84651.png",
       "phase": null,
       "rating": 0,
       "main_cast": ["Chris Pratt",
@@ -408,47 +449,6 @@
         "Bradley Cooper",
         "Karen Gillan",
         "Pom Klementieff"]
-    },
-    {
-      "title": "Black Widow",
-      "release_date": "2021-07-09",
-      "box_office": 0,
-      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/black-widow.jpg",
-      "phase": 4,
-      "rating": 0,
-      "main_cast": ["Scarlett Johansson",
-        "Robert Downey JR"]
-    },
-    {
-      "title": "Eternals",
-      "release_date": "2021-11-05",
-      "box_office": 0,
-      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/the-eternals.jpg",
-      "phase": 4,
-      "rating": 0,
-      "main_cast": ["Gemma Chan",
-        "Richard Madden",
-        "Kumail Nanjiani",
-        "Lia McHugh",
-        "Brian Tyree Henry",
-        "Lauren Ridloff",
-        "Barry Keoghan",
-        "Don Lee",
-        "Kit Harington",
-        "Salma hayek",
-        "Angelina Jolie"]
-    },
-    {
-      "title": "Shang-Chi and the Legend of the Ten Rings",
-      "release_date": "2021-09-03",
-      "box_office": 0,
-      "cover_url": "https://raw.githubusercontent.com/AugustoMarcelo/mcuapi/master/covers/shang-chi-and-the-legend-of-the-ten-rings.jpg",
-      "phase": 4,
-      "rating": 0,
-      "main_cast": ["Simu Liu",
-        "Tony Leung",
-        "Awkwafina",
-        "Meng'er Zhang"]
     }
   ],
   "total": 31
