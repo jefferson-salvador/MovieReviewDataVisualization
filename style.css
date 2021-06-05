@@ -179,11 +179,12 @@ hr {
 .scrollable {
 	width: 200vw;
 	height: 450px;
-	overflow: auto;
+    overflow: auto;
 }
 
 .scrollable::-webkit-scrollbar {
-	width: 12px; /* width of the entire scrollbar */
+    height: 12px;
+	width: 0px; /* width of the entire scrollbar */
 }
 
 .scrollable::-webkit-scrollbar-track {
