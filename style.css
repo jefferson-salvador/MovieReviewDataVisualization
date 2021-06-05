@@ -59,6 +59,10 @@ hr {
     border-color:#bc0303;
 }
 
+.prediction-hr{
+    width: 100px;
+}
+
 /* WIP STYLE */
 
 #wip {
