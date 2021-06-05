@@ -67,7 +67,7 @@ function getMovies(){
                 tooltips: {
                     callbacks: {
                         label: function(tooltipItem) {
-                            return tooltipItem.yLabel + '% ' + titles[tooltipItem.index];
+                            return tooltipItem.yLabel + '% = ' + titles[tooltipItem.index];
                         }
                     }
                 },
