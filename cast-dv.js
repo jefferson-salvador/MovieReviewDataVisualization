@@ -1,8 +1,10 @@
 function getCasts(){
     var casts = [];
-    var ratings = [];
-    var divisors = [];
-    var totalRatings = [];
+    var ratings = new Array(29).fill(0);
+    var divisors = new Array(29).fill(0);
+    var totalRatings =  new Array(29).fill(0.00);
+    var castLength;
+    var movieLength = 21;
     fetch(`marveldatabase.json`)
     .then((response)=>{
         return response.json();
@@ -10,16 +12,22 @@ function getCasts(){
     .then((data)=>{
 
         casts = data.data[19].main_cast;
-        // var movieLength = 21;
-        // var castLength = 15;
-        // for(var i = 0 ; i < castLength; i++){
-        //     for(var j = 0; j < movieLength; j++){
-        //         if()
-        //     }
-        // }
+        castLength = data.data[19].main_cast.length;
 
-        
-        // ratings.push(data.data[i].rating);
+        for(var i = 0; i < castLength ; i++){
+            for(var j = 0; j < movieLength ; j++){
+                if(data.data[j].main_cast.includes(casts[i])){
+                    ratings[i] = ratings[i] + data.data[j].rating;
+                    divisors[i] = divisors[i] + 1;
+                }
+            }
+            
+        }
+
+        for(var i = 0; i < castLength; i++){
+            totalRatings[i] = (ratings[i]/divisors[i]).toFixed(2);
+        }
+
 
         var ctx = document.getElementById('castChart').getContext('2d');
         var chart = new Chart(ctx, {
@@ -33,7 +41,7 @@ function getCasts(){
                 datasets: [{
                     label: "",
                     backgroundColor: '#bc0303',
-                    data: [9.8, 5.3, 9.3, 6.5, 4.4, 3.5],
+                    data: totalRatings,
                 }]
             },
 
@@ -69,6 +77,7 @@ function getCasts(){
                     xAxes:[{
                         ticks:{
                             fontColor: "white",
+                            autoSkip: false
                         }
                     }]
                 },
