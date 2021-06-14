@@ -54,7 +54,7 @@ function getCasts(){
                 tooltips: {
                     callbacks: {
                     label: function(tooltipItem) {
-                            return tooltipItem.yLabel + "%";
+                            return tooltipItem.yLabel + `% = S: ${ratings[tooltipItem.index]} / A: ${divisors[tooltipItem.index]}`;
                     }
                     }
                 },
