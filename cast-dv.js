@@ -54,7 +54,7 @@ function getCasts(){
                 tooltips: {
                     callbacks: {
                     label: function(tooltipItem) {
-                            return tooltipItem.yLabel;
+                            return tooltipItem.yLabel + "%";
                     }
                     }
                 },
@@ -62,6 +62,9 @@ function getCasts(){
                 scales: {
                     yAxes: [{
                         ticks: {
+                            callback: function(tick) {
+                                return tick.toString() + '%';
+                            },
                             fontColor: "white",
                             beginAtZero: true,
                             padding: 30
